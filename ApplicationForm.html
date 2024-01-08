@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLE LAYER</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
+
+<style>
+    .wrapper {
+        background:transparent;
+        color: purple;
+        width: 400px;
+        height: 870px;
+        position: center;
+        text-align: justify;
+        padding: 20px;
+        border-radius: 20px;
+        backdrop-filter: blur(20px);
+        border: rgb(167, 216, 224) solid;
+        font-weight: 500;
+    }
+    body {
+        background: url(bgg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-weight: 600;
+        
+    }
+</style>
+   
+    <style>
+        h2{
+            color: rgb(179, 32, 130);
+            font-style:oblique;
+            font-size: xx-large;
+        }
+        h3{
+            color: rgb(230, 16, 16);
+            font-size: x-large;
+            font-style: inherit;
+        }
+    </style>
+</head>
+<body style="background-color:aqua">
+    <center>
+    <h2>Application Form</h2>
+    <div class="wrapper">
+    
+    <br>
+    <form>
+        <lable>Enter your I'd:</lable>
+        <input type="text"> 
+        <br>
+        <br>
+        <lable>Enter your password:</lable>
+        <input type="password" name="pass">
+        <br>
+        <br>
+        <h3>Course Details</h3>
+        
+            <lable>Mode of Class</lable>
+            <br>
+            <input type="radio" name="class"> Online<br>
+            <input type="radio" name="class"> Ofline<br>
+            <br>
+            <lable> Select your Timing Preference</lable><br>
+            <input type="radio" name="Timing"> 10-12<br>
+            <input type="radio" name="Timing"> 01-03<br>
+            <input type="radio" name="Timing"> 03-05<br>
+            <input type="radio" name="Timing"> 05-07<br>
+            <br>
+            <lable>Select your course:</lable> 
+            <br>
+            <select>   
+            <option value="courses">select your course</option>
+            <option value="Python">Python</option>
+            <option value="MS Office">MS Office</option>
+            <option value="Data structure">Data structure</option>
+            <option value="Tally">Tally</option>
+            <option value="AI"> Artifical Intelligence</option>
+        </select>
+        <br>
+        <br>
+        <h3>Personal Details</h3>
+        <lable>Enter your name:</lable>
+        <input type="text">
+        <br>
+        <br>
+        <lable>Enter your Phone No:</lable>
+        <input type="text" name="Phone" size="10">
+        <br>
+        <br>
+        <lable>Enter your mail ID:</lable>
+        <input type="text" name="email">
+        <br>
+        <br>
+        <lable>Enter your Address:</lable>
+        <input textarea cols="27" rows="5">
+        <br>
+        <br>
+        <label>Enter your DOB:</label>
+        <input type="date">
+        <br>
+        <br>
+        <label>Gender:</label>
+        <select>
+        <option value="Female">Female</option><br>
+        <option value="Male">Male</option><br>
+        <option value="Others">Others</option><br>
+        </select>
+        <br>
+        <br>
+       
+    </div>
+    <input style="color: white; background-color: purple;" type="submit" value="Submit">
+    </form>
+</center>
+    
+</body>
+</html>
